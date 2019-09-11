@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <item android:id="@+id/help"
+        android:title="帮助"></item>
+
+    <item android:id="@+id/LOG"
+        android:title="计算历史"></item>
+
+    <item android:id="@+id/HEX"
+        android:title="进制转换"></item>
+
+
+    <item android:id="@+id/CURRENCY"
+        android:title="汇率转换"></item>
+
+    <item android:id="@+id/DATE"
+        android:title="日期计算"></item>
+
+    <item android:id="@+id/LENGTH"
+        android:title="长度计算"></item>
+
+    <item android:id="@+id/VOLUME"
+        android:title="体积计算"></item>
+
+
+    <item android:id="@+id/EXIT"
+        android:title="退出"></item>
+
+
+
+</menu>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".date"
+    android:id="@+id/vertical_layout"
+    android:rowCount="4"
+    android:columnCount="2">
+
+    <Button
+        android:id="@+id/dateFromBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="从日期"
+        />
+    <Button
+        android:id="@+id/dateToBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:text="至日期" />
+
+    <TextView
+        android:id="@+id/dateFromText"
+        android:hint="从日期"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="17dp"
+        android:textAlignment="textEnd"
+        android:layout_columnSpan="2"/>
+    <TextView
+        android:layout_columnSpan="2"/>
+    <TextView
+        android:id="@+id/dateToText"
+        android:hint="至日期"
+        android:layout_width="match_parent"
+        android:textAlignment="textEnd"
+        android:layout_height="wrap_content"
+        android:textSize="17dp"
+        android:layout_columnSpan="2"/>
+    <TextView
+        android:layout_columnSpan="2"/>
+    <TextView
+        android:id="@+id/dateCalculate"
+        android:hint="相差日期"
+        android:layout_width="match_parent"
+        android:textAlignment="textEnd"
+        android:layout_height="wrap_content"
+        android:textSize="17dp"
+        android:layout_columnSpan="2"/>
+
+</GridLayout>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/vertical_layout"
+    android:rowCount="10"
+    android:columnCount="5">
+    <EditText
+        android:id="@+id/all_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:layout_columnSpan="5"
+        android:textAlignment="viewEnd"
+        android:inputType="none"
+        android:focusable="false"
+        android:longClickable="false"
+        android:hint="算式" />
+    <EditText
+        android:id="@+id/cur_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:layout_columnSpan="5"
+        android:textAlignment="viewEnd"
+        android:inputType="none"
+        android:focusable="false"
+        android:longClickable="false"
+        android:hint="输入" />
+    <Button
+        android:id="@+id/btn_1"
+        android:layout_marginLeft="7dp"
+        android:text="1"
+        />
+
+    <Button
+        android:id="@+id/btn_2"
+        android:text="2"
+        />
+    <Button
+        android:id="@+id/btn_3"
+        android:text="3"
+        />
+
+    <Button
+        android:id="@+id/btn_plus"
+        android:layout_width="65dp"
+        android:layout_height="wrap_content"
+        android:text="+" />
+
+    <Button
+        android:id="@+id/btn_minus"
+        android:layout_width="65dp"
+        android:layout_height="wrap_content"
+        android:text="-" />
+    <Button
+        android:id="@+id/btn_4"
+        android:layout_marginLeft="7dp"
+
+        android:text="4"
+        />
+    <Button
+        android:id="@+id/btn_5"
+        android:text="5"
+        />
+    <Button
+        android:id="@+id/btn_6"
+        android:text="6"
+        />
+
+    <Button
+        android:id="@+id/btn_multiply"
+        android:layout_width="65dp"
+        android:layout_height="wrap_content"
+        android:text="*" />
+
+    <Button
+        android:id="@+id/btn_divide"
+        android:layout_width="65dp"
+        android:layout_height="wrap_content"
+        android:text="/" />
+    <Button
+        android:id="@+id/btn_7"
+        android:layout_marginLeft="7dp"
+
+        android:text="7"
+        />
+    <Button
+        android:id="@+id/btn_8"
+        android:text="8"
+        />
+    <Button
+        android:id="@+id/btn_9"
+        android:text="9"
+        />
+
+    <Button
+        android:id="@+id/btn_left_bracket"
+        android:layout_width="65dp"
+        android:layout_height="wrap_content"
+        android:text="(" />
+
+    <Button
+        android:id="@+id/btn_right_bracket"
+        android:layout_width="65dp"
+        android:layout_height="wrap_content"
+        android:text=")" />
+    <Button
+        android:id="@+id/btn_point"
+        android:layout_marginLeft="7dp"
+
+        android:text="."
+        />
+    <Button
+        android:id="@+id/btn_0"
+        android:text="0"
+        />
+    <Button
+        android:id="@+id/btn_del"
+        android:text="DEL"
+        />
+
+    <Button
+        android:id="@+id/btn_dec"
+        android:layout_width="131dp"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="2"
+        android:text="DEC" />
+    <TextView
+        android:layout_columnSpan="2"/>
+    <Button
+        android:id="@+id/btn_equal"
+        android:layout_columnSpan="3"
+        android:layout_width="217dp"
+        android:text="计算"
+        />
+
+</GridLayout>

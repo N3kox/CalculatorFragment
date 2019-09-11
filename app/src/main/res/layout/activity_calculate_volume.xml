@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/VOLUME"
+    android:rowCount="3"
+    android:columnCount="3">
+    <Button
+        android:id="@+id/volumeFromButton"
+        android:text="选择原单位"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:text="当前:"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"/>
+    <TextView
+        android:id="@+id/volumeFromType"
+        android:text="立方米"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"/>
+    <EditText
+        android:id="@+id/volumeInput"
+        android:textSize="20dp"
+        android:inputType="number"
+        android:singleLine="true"
+        android:imeOptions="actionDone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="3"
+        android:hint="输入"/>
+
+    <Button
+        android:id="@+id/volumeNowButton"
+        android:text="选择新单位"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:text="当前:"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"/>
+    <TextView
+        android:id="@+id/volumeNowType"
+        android:text="立方米"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"/>
+    <TextView
+        android:id="@+id/volumeOutput"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="3"
+        android:hint="输出"/>
+
+</GridLayout>
